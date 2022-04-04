@@ -164,7 +164,7 @@ public class TradeStock {
                 binaryFile = args[0];
                 algorithm = args[1];
             } else {
-                System.out.println("Two arguments expected. " + args.length + " received.");
+                System.out.println("Two arguments expected. " + args.length + " received.\nPlease enter the name of the binary file followed by the desired search algorithm.\nAlgorithm Menu:\n0: Theta(n^2) Brute Force\n1: Theta(nlog(n)) Divide and Conquer\n2: Theta(n) Divide and Conquer\n3: Theta(n) Decrease and Conquer");
                 return;
             }
 
